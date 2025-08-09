@@ -1,0 +1,35 @@
+{
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.env.windows": {
+        "VsDevCmd": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\""
+    },
+    "terminal.integrated.shellArgs.windows": [
+        "/k",
+        "%VsDevCmd%",
+        "&&",
+        "powershell.exe"
+    ],
+    "files.associations": {
+        "*.py": "python",
+        "asset_cache.h": "c",
+        "asset.h": "c",
+        "sdl_wrapper.h": "c",
+        "stdlib.h": "c",
+        "sdl.h": "c",
+        "sdl2_gfxprimitives.h": "c",
+        "time.h": "c",
+        "stdbool.h": "c",
+        "vector.h": "c",
+        "sprites.h": "c",
+        "assert.h": "c",
+        "math.h": "c",
+        "background.h": "c",
+        "list.h": "c",
+        "state.h": "c",
+        "car.h": "c",
+        "atomic": "c",
+        "cstdint": "c",
+        "collision.h": "c",
+        "polygon.h": "c"
+    },
+}
